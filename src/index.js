@@ -7,6 +7,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    {/* you can put your components here too */}
+    {/* <Exmaple /> */}
   </React.StrictMode>
 );
 
