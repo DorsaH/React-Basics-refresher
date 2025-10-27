@@ -1,4 +1,4 @@
-import { Exmaple } from "./Example";
+import Example from "./Example";
 
 function App() {
   return (
@@ -27,11 +27,11 @@ function App() {
     // instead of
     // <div> ... </div>
     <>
-    <Exmaple />
-    <Exmaple />
-    <Exmaple />
-    <Exmaple />
-    <Exmaple />
+    <Example  />
+    <Example username = "Jaxon"/>
+    <Example username = "Greg"/>
+    <Example username = "Kimsa"/>
+    <Example username = "Bob"/>
     <h1>Hello World</h1>
     <p>Hello from me!</p>
     </>
