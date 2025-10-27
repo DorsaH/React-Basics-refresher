@@ -1,5 +1,5 @@
+import "./App.css";
 import Example from "./Example";
-
 function App() {
   return (
     //this is just the default app that was created. we want to add our own components now
@@ -28,11 +28,11 @@ function App() {
     // <div> ... </div>
     <>
     <Example  />
-    <Example username = "Jaxon"/>
+    <Example username = "Jaxon" className="App-title"/>
     <Example username = "Greg"/>
     <Example username = "Kimsa"/>
     <Example username = "Bob"/>
-    <h1>Hello World</h1>
+    <h1 className="App-title">Hello World</h1>
     <p>Hello from me!</p>
     </>
   );

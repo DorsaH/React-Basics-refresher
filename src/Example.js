@@ -1,7 +1,7 @@
 function Exmaple(props){
     let username = props.username;
     return(
-        <h1 style={{color: 'red'}}>Welcome {username}</h1>
+        <h1 className={props.className}>Welcome {username}</h1>
 
     )
 }
