@@ -1,3 +1,4 @@
+import Button from "react-bootstrap/Button";
 import "./App.css";
 import Example from "./Example";
 function App() {
@@ -32,6 +33,7 @@ function App() {
     <Example username = "Greg"/>
     <Example username = "Kimsa"/>
     <Example username = "Bob"/>
+    <Button variant="primary">This is a button</Button>
     <h1 className="App-title">Hello World</h1>
     <p>Hello from me!</p>
     </>
