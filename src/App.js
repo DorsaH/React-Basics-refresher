@@ -1,4 +1,4 @@
-import { Exmaple2 } from "./Example";
+import { Exmaple } from "./Example";
 
 function App() {
   return (
@@ -27,7 +27,11 @@ function App() {
     // instead of
     // <div> ... </div>
     <>
-    <Exmaple2 />
+    <Exmaple />
+    <Exmaple />
+    <Exmaple />
+    <Exmaple />
+    <Exmaple />
     <h1>Hello World</h1>
     <p>Hello from me!</p>
     </>
