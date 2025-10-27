@@ -1,4 +1,4 @@
-function Exmaple(props){
+function Example(props){
     let username = props.username;
     return(
         <h1 className={props.className}>Welcome {username}</h1>
@@ -12,4 +12,4 @@ function Exmaple(props){
 // }
 
 // export { Exmaple, Exmaple2 };
-export default Exmaple;
+export default Example;
