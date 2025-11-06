@@ -1,7 +1,8 @@
 import Button from "react-bootstrap/Button";
-import "./App.css";
 import Counter from "./Components/Counter";
+import Header from "./Components/Header";
 import Example from "./Example";
+import "./styles.css";
 function App() {
   return (
     //this is just the default app that was created. we want to add our own components now
@@ -40,6 +41,9 @@ function App() {
     <br />
     <br />
     <br />
+    
+
+    <Header title="Simple React Site" />
     <h1>This is a counting app</h1>
     <Counter counterName = "a tally"/>
     </>
