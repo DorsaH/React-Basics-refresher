@@ -2,6 +2,7 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Counter from "./Components/Counter";
 import Header from "./Components/Header";
+import ProfileCard from "./Components/ProfileCard";
 import Example from "./Example";
 import "./styles.css";
 function App() {
@@ -45,18 +46,26 @@ function App() {
     <br />
     <br />
     
-    <div className = {isDark? "dark":""}>
+    <div className = {isDark? 'dark':''}>
     <Header
       title="Simple React Site"
       isDark = {isDark}
       onToggle = {()=> setIsDark(!isDark)}
     />
 
-    <main>
+    <main >
     <h2>This is a counting app</h2>
     <Counter counterName = "a tally"/>
+
+    <h2>Profiles</h2>
+    <ProfileCard
+      name = {"Jaxson"}
+      role = {"Trainer"}
+      avatar ={":)"}
+      />
     </main>
     </div>
+
     </>
   );
 }
