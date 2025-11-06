@@ -2,3 +2,26 @@
     color: rgb(73, 34, 201);
     font-weight: 800;
 }
+
+.dark {
+    background-color: #222;
+    color: #eee;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    margin: 4px;
+    padding: 6px 10px;
+    cursor: pointer;
+}

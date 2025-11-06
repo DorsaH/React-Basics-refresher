@@ -1,9 +1,12 @@
+import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Counter from "./Components/Counter";
 import Header from "./Components/Header";
 import Example from "./Example";
 import "./styles.css";
 function App() {
+  const [isDark, setIsDark] = useState (false);
+
   return (
     //this is just the default app that was created. we want to add our own components now
     ////////////////////////////////////////////
@@ -42,10 +45,18 @@ function App() {
     <br />
     <br />
     
+    <div className = {isDark? "dark":""}>
+    <Header
+      title="Simple React Site"
+      isDark = {isDark}
+      onToggle = {()=> setIsDark(!isDark)}
+    />
 
-    <Header title="Simple React Site" />
-    <h1>This is a counting app</h1>
+    <main>
+    <h2>This is a counting app</h2>
     <Counter counterName = "a tally"/>
+    </main>
+    </div>
     </>
   );
 }
