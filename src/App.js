@@ -1,5 +1,6 @@
 import Button from "react-bootstrap/Button";
 import "./App.css";
+import Counter from "./Components/Counter";
 import Example from "./Example";
 function App() {
   return (
@@ -36,6 +37,11 @@ function App() {
     <Button variant="primary">This is a button</Button>
     <h1 className="App-title">Hello World</h1>
     <p>Hello from me!</p>
+    <br />
+    <br />
+    <br />
+    <h1>This is a counting app</h1>
+    <Counter counterName = "a tally"/>
     </>
   );
 }
